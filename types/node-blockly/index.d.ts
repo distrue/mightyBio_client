@@ -1,3 +1,3 @@
 declare module 'node-blockly/browser' {
-    export {Xml, inject} from 'node-blockly';
+    export {Xml, inject, JavaScript} from 'node-blockly';
 }

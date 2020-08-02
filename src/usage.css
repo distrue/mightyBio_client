@@ -1,0 +1,23 @@
+.ustitle {
+    position: relative;
+    padding-top: 20px;
+    left: 40px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.imga {
+    position: absolute;
+    top: 120px;
+    left: 10%;
+    height: 60vh;
+}
+
+.usage {
+    position: relative;
+    width: 100vw;
+    left: 0;
+}

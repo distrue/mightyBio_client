@@ -1,0 +1,36 @@
+.restitle {
+    position: relative;
+    padding-top: 20px;
+    left: 40px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.items {
+    position: relative;
+    left: 10vw;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.res {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.ana {
+    padding-bottom: 50px;
+}
+
+.items .item {
+    position: relative;
+    width: 50%;
+}
+
+.items .item img {
+    width: 80%;
+}

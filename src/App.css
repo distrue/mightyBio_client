@@ -1,39 +1,42 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 10vh;
-  pointer-events: none;
-}
-
-.title {
-  height: 7.5vh;
-  font-size: 5vh;
-  padding-top: 2.5vh;
-  font-family: 'Noto Sans';
-  color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
 }
 
 .App-header {
-  background-color: #282c34;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 30px;
+    top: 5vh;
+    transform: translate(0%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list .item {
+    position: relative;
+    color: white;
+    width: 120px;
+    height: 50px;
+}
+
+.list .item .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
